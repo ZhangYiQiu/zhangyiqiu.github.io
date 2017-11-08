@@ -183,8 +183,8 @@
         "text": "Request、(请求对象)\nResponse、(响应对象)\nServer、(服务器对象)\nSession、(会话对象)\nCookie、\nApplication(应用程序对象)"
       },
       {
-        "title": "46、",
-        "text": ""
+        "title": "46、ASP.NET中所有自定义用户控件都必须继承自哪一个类？页面必须继承哪一个类？",
+        "text": "用户控件基类：System.Web.UI.UserControl。\n页面基类：System.Web.UI.Page。"
       },
       {
         "title": "47、foreach遍历访问的对象需要实现",
