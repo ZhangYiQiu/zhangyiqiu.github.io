@@ -124,7 +124,7 @@
       },
       {
         "title": "31、DateSet 和 DateReader的区别？",
-        "text": "DateSet：\n数据表集合，一次性读取数据库\nDateReader：数据读取器，逐行读取数据"
+        "text": "DateSet：数据表集合，一次性读取数据库\nDateReader：数据读取器，逐行读取数据"
       },
       {
         "title": "32、无状态编程",
@@ -132,23 +132,23 @@
       },
       {
         "title": "33、Web Service有哪些优点？",
-        "text": "Web\nService是基于XML的，与具体语言和平台无关，故可以实现跨平台，跨语言通信\nWeb\nService\n是采用SOAP\n协议进行通信的，该协议基于HTTP协议，故可以实现跨防火墙通信\nWeb\nService\n可以很容易实现分布式的应用程序"
+        "text": "Web Service是基于XML的，与具体语言和平台无关，故可以实现跨平台，跨语言通信\nWeb Service是采用SOAP\n协议进行通信的，该协议基于HTTP协议，故可以实现跨防火墙通信\nWeb Service可以很容易实现分布式的应用程序"
       },
       {
         "title": "34、ASP.NET 缓存有几种实现方式？",
-        "text": "OutputCache:\n页面输出缓存，将页面全部进行缓存\nRegister:\n页面局部缓存，缓存用户控件\n数据缓存：Cache\n使用Cache类缓存\n客户端缓存：使用HttpCachePolicy\n类进行客户端缓存"
+        "text": "OutputCache:页面输出缓存，将页面全部进行缓存\nRegister:页面局部缓存，缓存用户控件\n数据缓存：Cache 使用Cache类缓存\n客户端缓存：使用HttpCachePolicy类进行客户端缓存"
       },
       {
         "title": "35、ViewState",
         "text": "ViewState：视图状态，当前页面传值"
       },
       {
-        "title": "36、ASP.NET中的六大对象有哪些？",
-        "text": "aspx:页面\nascx:用户控件\nasmx：Web\nService\nashx:\n一般处理程序\nasax:\nGlobal.asax\n全局应用程序配置"
+        "title": "36、ASP.NET中常见文件的后缀名有哪些",
+        "text": "aspx：页面\nascx：用户控件\nasmx：Web Service\nashx：一般处理程序\nasax：Global.asax，全局应用程序配置"
       },
       {
         "title": "37、实现Ajax 请求的常用方法有哪些？ 有什么区别？",
-        "text": "$.get\n通过get\n方式发送请求\n$.post\n通过post\n方式发送请求\n$.ajax\n可以使用指定的方式发送请求"
+        "text": "$.get\n通过get方式发送请求\n$.post 通过post方式发送请求\n$.ajax可以使用指定的方式发送请求\n$.getJSON()"
       },
       {
         "title": "38、MVC的含义及作用",
@@ -179,12 +179,12 @@
         "text": "程序集。（中间语言，源数据，资源，装配清单）"
       },
       {
-        "title": "45、.net Remoting 的工作原理是什么？",
-        "text": "服务器端向客户端发送一个进程编号，一个程序域编号，以确定对象的位置"
+        "title": "45、14.	ASP.NET中的六大对象有哪些",
+        "text": "Request、(请求对象)\nResponse、(响应对象)\nServer、(服务器对象)\nSession、(会话对象)\nCookie、\nApplication(应用程序对象)"
       },
       {
-        "title": "46、简要谈一下您对微软.NET 构架下remoting和webservice两项技术的理解以及实际中的应用",
-        "text": "WS主要是可利用HTTP，穿透防火墙。而Remoting可以利用TCP/IP，二进制传送提高效率。\nremoting是.net\n中用来跨越machine,\nprocess,\nappdomain\n进行方法调用的技术,对于三成结构的程序，就可以使用remoting技术来构建．它是分布应用的基础技术.相当于以前的DCOM\nWeb\nService是一种构建应用程序的普通模型，并能在所有支持internet网通讯的操作系统上实施。Web\nService令基于组件的开发和web的结合达到最佳，基于组件的对象模型"
+        "title": "46、",
+        "text": ""
       },
       {
         "title": "47、foreach遍历访问的对象需要实现",
