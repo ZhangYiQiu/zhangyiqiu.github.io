@@ -248,6 +248,7 @@
 				"title": "19、以ID为条件，将A表中B列插入B表B列",
 				"text": "update B set B.name=A.name from A where A.id=B.id"
 			}, {
+				"title": "20、购物人 商品名 数量\nA		甲		2\nB		乙		4\nC		丙		1\nA		甲		2\nB		乙		5\n给出所有购入商品为两种或两种以上的购物人记录",
 				"text": "select 购物人 from 购物信息 group by 购物人 having COUNT(商品名)>=2"
 			}
 		]
