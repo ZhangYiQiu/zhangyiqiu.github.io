@@ -179,7 +179,7 @@
         "text": "程序集。（中间语言，源数据，资源，装配清单）"
       },
       {
-        "title": "45、14.	ASP.NET中的六大对象有哪些",
+        "title": "45、ASP.NET中的六大对象有哪些",
         "text": "Request、(请求对象)\nResponse、(响应对象)\nServer、(服务器对象)\nSession、(会话对象)\nCookie、\nApplication(应用程序对象)"
       },
       {
